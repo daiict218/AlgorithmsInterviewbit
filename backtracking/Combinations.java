@@ -14,9 +14,9 @@ class main {
         A.add(i, i+1);
       }
 
-			// solution.add(subset);
-			combineUtil(A, subset, k, 0);
-			return solution;
+		// solution.add(subset);
+		combineUtil(A, subset, k, 0);
+		return solution;
 	}
 
 	public static void combineUtil(ArrayList<Integer> A, ArrayList<Integer> subset, int k, int index){
